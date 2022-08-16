@@ -13,10 +13,10 @@ style to be equal to the variable that was selected.
 */
 
 
-document.getElementById("Color List").onchange = backgroundChange;
+document.getElementById("Color_List").onchange = backgroundChange;
 
 function backgroundChange() {
-  let newColor = document.getElementById("Color List"); 
+  let newColor = document.getElementById("Color_List"); 
 
   document.getElementById("Colors").style.backgroundColor = newColor.value;
 }
